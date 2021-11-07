@@ -3,15 +3,15 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    background-color: chartreuse;
   }
      .container{
+
+    background-color: chartreuse;
       display: inline;
        color: brown;
         display: block;
        align-self: baseline;
      }
-
      .section-1{
        display:flex;
        text-align: center;
@@ -21,17 +21,7 @@
        background-origin: padding-box;
        page-break-inside: auto;
      }
-     .section-2{
-        display:flex;
-        text-align: center;
-        padding-right: 5vh;
-        background-color: #518620;
-        border-bottom-left-radius: inherit;
-        background-origin: padding-box;
-        page-break-inside: auto;
-
-
-}
+     
      .paragraph{
      image-orientation: flip;
      text-align: start;
@@ -66,42 +56,48 @@
      
      h4{
        color:crimson;
-     
       font-weight: bold;
      }
      
      h1{
        display: flexbox;
        text-align: center;
+       color: crimson;
      
      }
      
+     h5{
+         color: crimson;
+     }
+
      .aboutme img {
        float:left;
-       height: 100px;
        width: 100px;
-    
+       height: 100px;
      }
        
      .educationbackground{
        text-align: left;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
+        display: flex;
      }
-    
-    
+     
+     
   h1{
     font-size: x-large;
-    color: blueviolet;
+    color:crimson;
   }
 
 h2{
   display: block;
   box-decoration-break: slice;
    font-variant-position: super;
+   color: crimson;
 }
 
   .accordion{
     text-decoration-color: cyan;
+
 
   }
 
