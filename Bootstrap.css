@@ -4,24 +4,28 @@
         padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
-      }
-         .container{
-    
+        display: flex;
+        justify-content: space-between;
+       
         background-color: chartreuse;
           display: inline;
-           color: brown;
+            /* color: brown;  */
             display: block;
            align-self: baseline;
+         }
+         .topnavbar{
+           display: flex;
+           justify-content: space-between;
          }
          .section-1{
            display:flex;
            text-align: center;
            padding-right: 5vh;
-           background-color: #518620;
+           /* background-color: #518620; */
            border-bottom-left-radius: inherit;
            background-origin: padding-box;
            page-break-inside: auto;
-         }
+         } 
          
          .paragraph{
          image-orientation: flip;
@@ -30,7 +34,7 @@
          padding-right:5rem;
          flex-direction: column-reverse; 
          image-resolution:20px ;
-         }
+         } 
          
          h2{
            color:crimson;
@@ -38,17 +42,7 @@
          
          }
          
-         
-         .paragraph{
-          direction: inherit;
-         font-size: large;
-         text-align: center;
-         margin-bottom: 20px;
-         background-color: khaki;
-         align-items: center;
-         }
-         
-         
+               
          h3{
            color: crimson;
            border-top: 4rem;
@@ -61,7 +55,7 @@
          }
          
          h1{
-           display: flexbox;
+           display: flexbox; 
            text-align: center;
            color: crimson;
          
@@ -75,6 +69,7 @@
            float:left;
            width: 100px;
            height: 100px;
+          
          }
            
          .educationbackground{
@@ -88,7 +83,11 @@
         font-size: x-large;
         color:crimson;
       }
-    
+      .h1,h2,h3,h4,h5{
+        text-align: center;
+        box-decoration-break: inherit;
+        
+    }
     h2{
       display: block;
       box-decoration-break: slice;
@@ -97,13 +96,19 @@
     }
     
       .accordion{
-        text-decoration-color: cyan;
+        /* text-decoration-color: cyan;  */
     
-    
+
       }
+    .container-fluid{
+      text-align: center;
+      justify-content: space-between;
+      color: cadetblue;
+    }
+    
     
       @media (min-width: 768px) {
-        .container {
+         .container {
           width: 750px;
         }
       }
@@ -115,5 +120,6 @@
       @media (min-width: 1200px) {
         .container {
           width: 1170px;
-        }
-        
+        } 
+      
+         

@@ -1,14 +1,13 @@
-.container {
+ .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-  }
-     .container{
+    display: flex;
+        justify-content: space-between;
 
     background-color: chartreuse;
       display: inline;
-       color: brown;
         display: block;
        align-self: baseline;
      }
@@ -16,10 +15,9 @@
        display:flex;
        text-align: center;
        padding-right: 5vh;
-       background-color: #518620;
        border-bottom-left-radius: inherit;
        background-origin: padding-box;
-       page-break-inside: auto;
+       page-break-inside: auto; 
      }
      
      .paragraph{
@@ -29,25 +27,35 @@
      padding-right:5rem;
      flex-direction: column-reverse; 
      image-resolution:20px ;
-     }
-     
+     } 
+     .topnavbar{
+      display: flex;
+      justify-content: space-between;
+    }
      h2{
-       color:crimson;
+       color: crimson;
        font-weight: bolder;
      
      }
-     
-     
+     .container-fluid{
+      text-align: center;
+      justify-content: space-between;
+      color: cadetblue;
+    }
+      
      .paragraph{
       direction: inherit;
      font-size: large;
      text-align: center;
      margin-bottom: 20px;
-     background-color: khaki;
      align-items: center;
+     } 
+     
+     .h1,h2,h3,h4,h5{
+         text-align: center;
+         box-decoration-break: inherit;
+
      }
-     
-     
      h3{
        color: crimson;
        border-top: 4rem;
@@ -60,7 +68,7 @@
      }
      
      h1{
-       display: flexbox;
+    
        text-align: center;
        color: crimson;
      
@@ -74,6 +82,7 @@
        float:left;
        width: 100px;
        height: 100px;
+      
      }
        
      .educationbackground{
@@ -96,7 +105,7 @@ h2{
 }
 
   .accordion{
-    text-decoration-color: cyan;
+     /* text-decoration-color: cyan;  */
 
 
   }
@@ -114,5 +123,5 @@ h2{
   @media (min-width: 1200px) {
     .container {
       width: 1170px;
-    }
-    
+    } 
+   
