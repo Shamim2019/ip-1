@@ -6,7 +6,6 @@
         margin-left: auto;
         display: flex;
         justify-content: space-between;
-       
         background-color: chartreuse;
           display: inline;
             /* color: brown;  */
@@ -77,13 +76,16 @@
             flex-wrap: wrap; 
             display: flex;
          }
-         
+         h6{
+           color: crimson;
+           
+         }
          
       h1{
         font-size: x-large;
         color:crimson;
       }
-      .h1,h2,h3,h4,h5{
+      .h1,h2,h3,h4,h5,h6{
         text-align: center;
         box-decoration-break: inherit;
         
