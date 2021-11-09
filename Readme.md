@@ -32,7 +32,9 @@ https://shamim2019.github.io/ip-1/
 LICENSE
 
 ## License
-This project is under the [MIT](LICENSE) 
+This project is under the [MIT]
+
+(LICENSE) 
 MIT License
 Copyright (c)    [2021]    [Shamim maloba]
 Permission is hereby granted, free of charge, to any person obtaining a copy
